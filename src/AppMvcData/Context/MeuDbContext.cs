@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace AppMvcData.Context
 {
-    class MeuDbContext : DbContext
+    public class MeuDbContext : DbContext
     {
         public MeuDbContext(DbContextOptions options) : base(options)
         {
@@ -24,7 +24,7 @@ namespace AppMvcData.Context
             // definir uma tamanho de uma propriedade caso esqueça. 
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany((e => e.GetProperties().Where(p => p.ClrType == typeof(string)))))
             {
-               property.Relational().ColumnType == "varchar(100)";
+               property.SetColumnName("varchar(100)");
             }
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
