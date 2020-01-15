@@ -1,0 +1,8 @@
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\bin\Debug\netcoreapp3.1\AppMvcBusiness.deps.json
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\bin\Debug\netcoreapp3.1\AppMvcBusiness.dll
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\bin\Debug\netcoreapp3.1\AppMvcBusiness.pdb
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\obj\Debug\netcoreapp3.1\AppMvcBusiness.csprojAssemblyReference.cache
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\obj\Debug\netcoreapp3.1\AppMvcBusiness.AssemblyInfoInputs.cache
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\obj\Debug\netcoreapp3.1\AppMvcBusiness.AssemblyInfo.cs
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\obj\Debug\netcoreapp3.1\AppMvcBusiness.dll
+C:\Labs\AppMvcCompleta\src\AppMvcBusiness\obj\Debug\netcoreapp3.1\AppMvcBusiness.pdb

@@ -4,3 +4,8 @@ C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.Assembl
 C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.AssemblyInfo.cs
 C:\Labs\AppMvcCompleta\src\AppMvcData\bin\Debug\netcoreapp3.1\AppMvcBusiness.dll
 C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.csprojAssemblyReference.cache
+C:\Labs\AppMvcCompleta\src\AppMvcData\bin\Debug\netcoreapp3.1\AppMvcData.pdb
+C:\Labs\AppMvcCompleta\src\AppMvcData\bin\Debug\netcoreapp3.1\AppMvcBusiness.pdb
+C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.csproj.CopyComplete
+C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.dll
+C:\Labs\AppMvcCompleta\src\AppMvcData\obj\Debug\netcoreapp3.1\AppMvcData.pdb

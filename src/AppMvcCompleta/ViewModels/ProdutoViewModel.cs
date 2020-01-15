@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using AppMvcBusiness.Models;
@@ -10,6 +11,8 @@ namespace AppMvcCompleta.ViewModels
     {
         [Key]
         public Guid Id { get; set; }
+
+        public Guid FornecedorId { get; set; }
 
         [Required(ErrorMessage = "O Campo {0} é obrigatório")]
         [StringLength(200, ErrorMessage = "O Campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
@@ -36,5 +39,6 @@ namespace AppMvcCompleta.ViewModels
         /* EF Relation */
 
         public FornecedorViewModel Fornecedor { get; set; }
+        public IEnumerable<FornecedorViewModel> Fornecedores { get; set; }
     }
 }
