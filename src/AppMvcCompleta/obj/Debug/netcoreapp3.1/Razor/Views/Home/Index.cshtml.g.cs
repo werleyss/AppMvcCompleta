@@ -19,15 +19,8 @@ using AppMvcCompleta;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Labs\AppMvcCompleta\src\AppMvcCompleta\Views\_ViewImports.cshtml"
-using AppMvcCompleta.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"54d60a83a9a117a2b258a901e2857f1bf82ecc8a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"48d0d51de150ab71401d6a187c68642fe25fd938", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

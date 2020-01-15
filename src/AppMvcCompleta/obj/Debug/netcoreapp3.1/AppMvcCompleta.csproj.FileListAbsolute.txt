@@ -51,3 +51,10 @@ C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\Razor\Views\_V
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\AppMvcCompleta.RazorTargetAssemblyInfo.cache
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\AppMvcCompleta.RazorTargetAssemblyInfo.cs
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\AppMvcCompleta.csproj.CopyComplete
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.Design.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\AppMvcBusiness.dll
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\AppMvcData.dll

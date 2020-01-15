@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using AppMvcCompleta.Data;
 using AppMvcData.Context;
 using AppMvcData.Repository;
+using AutoMapper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -40,6 +41,8 @@ namespace AppMvcCompleta
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddScoped<MeuDbContext>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
