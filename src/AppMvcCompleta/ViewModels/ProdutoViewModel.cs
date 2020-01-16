@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using AppMvcBusiness.Models;
+using AppMvcCompleta.Extensions;
 using Microsoft.AspNetCore.Http;
 
 namespace AppMvcCompleta.ViewModels
@@ -28,6 +29,7 @@ namespace AppMvcCompleta.ViewModels
 
         public string Imagem { get; set; }
 
+        [Moeda]
         [Required(ErrorMessage = "O Campo {0} é obrigatório")]
         public decimal Valor { get; set; }
 
