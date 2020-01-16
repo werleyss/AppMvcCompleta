@@ -23,4 +23,9 @@
     <ProjectReference Include="..\AppMvcData\AppMvcData.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>
