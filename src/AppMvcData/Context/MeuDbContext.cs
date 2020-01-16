@@ -21,13 +21,17 @@ namespace AppMvcData.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
+
             // definir uma tamanho de uma propriedade caso esqueça. 
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany((e => e.GetProperties().Where(p => p.ClrType == typeof(string)))))
             {
-               property.SetColumnName("varchar(100)");
-            }
+                //Com erro 
+                //property.SetColumnName("varchar(100)");
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
+               //Corrigido. 
+               property.SetColumnType("varchar(100)");
+            }
 
             //Não deletar em cascate 
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))

@@ -11,6 +11,8 @@ namespace AppMvcData.Mappings
         {
             public void Configure(EntityTypeBuilder<Fornecedor> builder)
             {
+                builder.ToTable("Fornecedores");
+
                 builder.HasKey(p => p.Id);
 
                 builder.Property(p => p.Nome)
@@ -21,16 +23,12 @@ namespace AppMvcData.Mappings
                     .IsRequired()
                     .HasColumnType("varchar(14)");
 
-
-
                 builder.HasOne(f => f.Endereco) // 1 : 1 => Fornecedor : Endereço 
                     .WithOne(e => e.Fornecedor);
 
                 builder.HasMany(f => f.Produtos) // 1 : n  => Fornecedor : Produtos
                     .WithOne(p => p.Fornecedor)
                     .HasForeignKey(p => p.FornecedorId);
-
-                builder.ToTable("Fornecedores");
 
             }
         }

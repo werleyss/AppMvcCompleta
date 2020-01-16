@@ -104,13 +104,13 @@ namespace AppMvcCompleta.Controllers
         {
             var produto = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
 
-            produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObeterTodos());
+            produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
 
             return produto;
         }
         private async Task<ProdutoViewModel> PolularFornecedores(ProdutoViewModel produto)
         {
-            produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObeterTodos());
+            produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
 
             return produto;
         }

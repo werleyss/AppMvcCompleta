@@ -22,7 +22,7 @@ namespace AppMvcCompleta.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObeterTodos()));
+            return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos()));
         }
 
         public async Task<IActionResult> Details(Guid id)

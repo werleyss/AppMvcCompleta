@@ -12,7 +12,9 @@ namespace AppMvcData.Mappings
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.ToTable("Enderecos");
+
+            builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Logradouro)
                 .IsRequired()
@@ -23,7 +25,6 @@ namespace AppMvcData.Mappings
                 .HasColumnType("varchar(50)");
 
             builder.Property(c => c.Cep)
-                .IsRequired()
                 .HasColumnType("varchar(8)");
 
             builder.Property(c => c.Complemento)
@@ -42,7 +43,7 @@ namespace AppMvcData.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(50)");
 
-            builder.ToTable("Fornecedores");
+            
 
         }
     }
