@@ -20,11 +20,13 @@ namespace AppMvcCompleta.Controllers
             _mapper = mapper;
         }
 
+        [Route("lista-de-fornecedores")]
         public async Task<IActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos()));
         }
 
+        [Route("dados-do-fornecedores/{id:guid}")]
         public async Task<IActionResult> Details(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorEndereco(id);
