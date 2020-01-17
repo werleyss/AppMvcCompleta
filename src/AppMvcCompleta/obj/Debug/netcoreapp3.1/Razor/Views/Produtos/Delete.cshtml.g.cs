@@ -20,7 +20,7 @@ using AppMvcCompleta;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1a59129d4087579338804ee864030b877301a5c8", @"/Views/Produtos/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"48d0d51de150ab71401d6a187c68642fe25fd938", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d87a77eb4b8f86ae025dc428dfb7397dae9b957a", @"/Views/_ViewImports.cshtml")]
     public class Views_Produtos_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AppMvcCompleta.ViewModels.ProdutoViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

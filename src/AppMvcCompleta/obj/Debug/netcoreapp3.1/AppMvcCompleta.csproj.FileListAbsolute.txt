@@ -178,3 +178,5 @@ C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\Razor\Views\Pr
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
 C:\Labs\AppMvcCompleta\src\AppMvcCompleta\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_DetalhesEndereco.cshtml.g.cs
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Labs\AppMvcCompleta\src\AppMvcCompleta\bin\Debug\netcoreapp3.1\appsettings.Staging.json
